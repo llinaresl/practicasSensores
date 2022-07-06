@@ -17,17 +17,17 @@ This tutorial instructs you how to use ESP32 to read the information from Ky-026
   * LED1: Shows that the sensor is supplied with voltage
   * LED2: Shows that the sensor detects a flame
 
-![](figs/SensorFlame.png)
+![](figs/SensorFlame.PNG)
 
 ### Flame Sensor Ky-026 Pinout
 
 Has four pins:
 
-![](figs/SensorFlame2.png)
+![](figs/SensorFlame2.PNG)
 
 ## Wiring Diagram Flame Sensor Ky-026 and ESP32
 
-![](figs/SensorFlame3.png)
+![](figs/SensorFlame3.PNG)
 
 ## ESP32 Code
 
