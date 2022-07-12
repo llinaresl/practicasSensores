@@ -74,5 +74,3 @@ void loop()
   delay(1000);
 }
 ```
-
-![](figs/SensorLC3.jpg)
