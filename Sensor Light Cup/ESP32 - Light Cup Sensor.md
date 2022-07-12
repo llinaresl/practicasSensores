@@ -19,8 +19,11 @@ This module has a mercury switch and an LED mounted on a breakout board, a mercu
 The KY-027 module has four pins.
 
 G =	GND
+
 (+) =	+5V
+
 S =	From Mercury Switch
+
 L	= From LED Anode (+)
 
 ![](figs/SensorLC.png)
