@@ -14,7 +14,8 @@ This tutorial instructs you how to use ESP32 to read the information from KY-027
 
 ## Introduction to Light Cup KY-027 sensor.
 
-This module has a mercury switch and an LED mounted on a breakout board.
+This module has a mercury switch and an LED mounted on a breakout board, a mercury switch is a type of switch wherein the contacts are closed by a blob of mercury. If the switch is tilted, the mercury will flow and will open the contacts.
+
 The KY-027 module has four pins.
 
 G =	GND
@@ -22,12 +23,21 @@ G =	GND
 S =	From Mercury Switch
 L	= From LED Anode (+)
 
-![](figs/SensorLC.PNG)
+![](figs/SensorLC.png)
 
 
-## Wiring Diagram Flame Sensor Ky-026 and ESP32
+## Wiring Diagram Light Cup KY-027 Sensor and ESP32
 
-![](figs/SensorLC2.PNG)
+Red wire:     Vin - (+)
+
+Black wire:   GND - G
+
+Blue wire:    D13 - S
+
+Orange wire:  D2 - L
+
+![](figs/SensorLC2.png)
+
 
 ## ESP32 Code
 
